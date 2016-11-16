@@ -1,0 +1,535 @@
+
+button,input,select,textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle
+}
+
+button,input {
+    line-height: normal;
+    *overflow: visible
+}
+
+table button,table input {
+    *overflow: auto
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+input[type="checkbox"],input[type="radio"] {
+    box-sizing: border-box
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical
+}
+
+input:invalid,textarea:invalid {
+    background-color: #f0dddd
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td {
+    vertical-align: top
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clearfix {
+    display: inline-block
+}
+
+* html .clearfix {
+    height: 1%
+}
+
+.clearfix {
+    display: block
+}
+
+
+.block-border {
+    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.block-content {
+   
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    padding: 0 10px;
+   
+}
+
+.block-content.dark-bg {
+   
+    box-shadow: none!important
+}
+
+.block-border .block-content+.block-content {
+    margin-top: 10px
+}
+
+.block-border .block-content {
+   
+}
+
+.block-header {
+   
+    min-height: 38px;
+  
+    margin-bottom: -2px;
+    position: relative;
+    z-index: 5
+}
+
+.block-header.small {
+    min-height: 27px
+}
+
+.block-actions {
+    margin: 0 -19px -10px -19px;
+   
+    border-radius: 0 0 5px 5px;
+    height: 44px;
+    overflow: hidden
+}
+
+.dataTables_wrapper .block-actions {
+    margin-left: -9px;
+    margin-right: -9px
+}
+
+.button {
+    background: repeat-x scroll 0 0 #800080;
+   
+    color: #fff!important;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+   
+    height: 14px
+}
+
+input[type="submit"].button {
+    height: 26px
+}
+
+
+.btn-info {
+    background:no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    margin-left: -10px;
+    margin-top: 10px;
+    float: left
+}
+
+.btn-info:hover {
+    background-position: 0 -20px
+}
+
+
+.block-actions ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    margin-top: 5px
+}
+
+.block-actions ul li {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.block-actions ul.actions-left {
+    float: left;
+    margin-left: 10px
+}
+
+.block-actions ul.actions-right {
+    float: right;
+    margin-right: 10px
+}
+
+
+a {
+    color: #2d5672;
+    text-decoration: none
+}
+
+a:visited {
+    color: #2d5672
+}
+
+a:hover {
+    color: #2f383e;
+    text-decoration: underline
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #475d68;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 10px
+}
+
+h1 {
+    font-size: 22px
+}
+
+h2 {
+    font-size: 18px
+}
+
+h3 {
+    font-size: 16px
+}
+
+h4 {
+    font-size: 14px
+}
+
+h5 {
+    font-size: 13px
+}
+
+h6 {
+    font-size: 12px
+}
+
+p {
+    font-size: 13px;
+    color: #2a3640
+}
+
+#header p {
+    color: #d9d9d9
+}
+
+#header .messages a {
+    color: #ebebeb;
+    font-weight: 700
+}
+
+#header .messages a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+#breadcrumbs a {
+    color: #515151
+}
+
+#breadcrumbs a:hover {
+    color: #2e2e2e
+}
+
+#login-details h2,#login-details h3,#login-details p {
+    text-shadow: 0 1px 0 #070f16
+}
+
+#login-details h2,#login-details h2 a {
+    color: #e8e8e8;
+    font-size: 14px
+}
+
+#login-details h2 a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+#login-details h3 {
+    color: #d4d4d4;
+    font-size: 12px
+}
+
+#login-details p,#login-details .user-button a {
+    color: #e3e3e3;
+    float: left
+}
+
+#login-details .user-button a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+#container>#sidebar>#nav>.menu li a {
+    font-size: 13px;
+    color: #3b3b3b
+}
+
+#container>#sidebar>#nav>.menu li a:hover {
+    color: #f4faff
+}
+
+#container>#sidebar>#nav>.menu li ul li a {
+    color: #e5e5e5
+}
+
+#container>#sidebar>#nav>.menu li ul li a:hover {
+    color: #fff
+}
+
+.badge {
+    color: #ebebeb
+}
+
+.badge.grey {
+    color: #6e6e6e
+}
+
+.block-header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 37px
+}
+
+.block-header.small h1 {
+    font-size: 13px;
+    line-height: 25px
+}
+
+.block-content.dark-bg,.block-content.dark-bg p {
+    color: #f5f5f5!important
+}
+
+.block-content.dark-bg a {
+    color: #e2eaf1
+}
+
+.block-content.dark-bg a:hover {
+    color: #f8fcff
+}
+
+.placeholder {
+    color: #909090!important
+}
+
+#search-form input[type="text"] {
+    color: #343434
+}
+
+.form fieldset legend {
+    font-size: 13px;
+    color: #464646!important
+}
+
+.form label,.form .label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #666!important;
+    text-shadow: 0 1px 0 #fff
+}
+
+input,textarea{
+	width: 80%;
+	font-size: 12px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+select {
+    width: 16%
+}
+
+p.no-top-margin {
+    margin-top: 0
+}
+
+.inline-label label,.inline-label .label,.inline-medium-label label,.inline-medium-label .label,.inline-small-label label,.inline-small-label .label,.inline-mini-label label,.inline-mini-label .label {
+    float: left;
+    display: block;
+    padding: 4px 0 0 4px
+}
+
+p.inline-label {
+    padding-left: 200px
+}
+
+.inline-label label,.inline-label .label {
+    margin-left: -200px
+}
+
+p.inline-medium-label {
+    padding-left: 150px
+}
+
+.inline-medium-label label,.inline-medium-label .label {
+    margin-left: -150px
+}
+
+p.inline-small-label {
+    padding-left: 100px
+}
+
+.inline-small-label label,.inline-small-label .label {
+    margin-left: -100px
+}
+
+p.inline-mini-label {
+    padding-left: 70px
+}
+
+.inline-mini-label label,.inline-mini-label .label {
+    margin-left: -70px
+}
+
+
+
+.table {
+    clear: both;
+    width: 100%;
+    margin: 0 auto
+}
+
+.dataTables_wrapper .top {
+    padding: 5px 10px;
+    background: url("../img/tables/table-head-bg.png") repeat-x scroll top left #ddd;
+    border-bottom: 1px solid #949494;
+    margin-top: 10px
+}
+
+.dataTables_wrapper .block-actions {
+    margin-top: 0;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.dataTables_wrapper {
+    position: relative;
+    margin: -9px -10px 0 -10px;
+    clear: both;
+    zoom: 1
+}
+
+.dataTables_length {
+    float: left;
+    padding-left: 100px
+}
+
+.dataTables_length div.selector {
+    width: 70px !important;
+}
+
+.dataTables_length div.selector span {
+    width: 70px !important;
+}
+
+.dataTables_length label {
+    margin-left: -100px
+}
+
+.dataTables_filter {
+    float: right;
+    text-align: right;
+    padding-left: 100px
+}
+
+.dataTables_filter label {
+    margin-left: -100px
+}
+
+.dataTables_filter input {
+    margin-left: 5px;
+    width: 150px
+}
+
+.dataTables_info {
+    float: left
+}
+
+.dataTables_paginate {
+    float: right
+}
+
+.table thead {
+    background: repeat-x scroll top left #ddd;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #bcbcbc
+}
+
+.table thead th:first-child {
+    border-left: none
+}
+
+.table thead th:last-child {
+    border-right: 0
+}
+
+.table thead th {
+    vertical-align: middle;
+    text-align: left;
+    padding: 8px 13px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #c3c3c3;
+    cursor: pointer
+}
+
+.table tbody th,.table tbody td,.table tfoot th,.table tfoot td {
+    vertical-align: top;
+    text-align: left;
+    padding: 7px;
+    border-left: 1px dotted #bebebe
+}
+
+.table tbody td {
+    background: #f2f2f2
+}
+
+.table tbody th:first-child,.table tbody .th:first-child,.table tbody td:first-child,.table tfoot th:first-child,.table tfoot td:first-child {
+    border-left: none
+}
+
+
+

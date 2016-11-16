@@ -1,0 +1,4 @@
+ else{
+      $tampil=mysql_query("SELECT * FROM produk
+                           WHERE username='$_SESSION[namauser]'       
+                           ORDER BY id_produk DESC");
